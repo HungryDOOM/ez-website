@@ -15,10 +15,21 @@ const MovieList = () => {
 
   return (
     <div className="container">
+      <form>
+        <label for="title">Titulo</label>
+        <input name='title' id='title' type='text'></input><br/>
+        <label for="genre">Genero</label>
+        <input name='genre' id='genre' type='text'></input><br/>
+        <label for="year">Año</label>
+        <input name='year' id='year' type='text'></input><br/>
+        <label for="director">Director</label>
+        <input name='director' id='director' type='text'></input><br/>
+        <button type='submit'>Agregar pelicula</button>
+      </form>
       <div className="row">
-        <table class="table table-dark">
+        <table className="table table-dark">
           <thead>
-            <tr class="h2">
+            <tr className="h2">
               <th>Titulo</th>
               <th>Genero</th>
               <th>Año</th>

@@ -6,7 +6,7 @@ const MovieList = () => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const result = await axios.get('http://localhost:5000/api/movies');
+      const result = await axios.get('https://ez-website-bkn-production.up.railway.app/api/movies');
       setMovies(result.data);
     };
     fetchMovies();

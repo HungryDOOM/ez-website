@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import MovieList from './components/MovieList';
 import './App.css';
 

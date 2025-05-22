@@ -21,7 +21,7 @@ function App() {
         <p>Nombre de Alumno: Brian Joel Alvarez Manriquez</p>
         <p>Codigo de alumno: 222959239</p>
         <p>Correo: brianjoelam12_&#64;hotmail.com</p>
-        <p>Materia: Conceptualización de entornos de desarrollo de aplicaciones y servicios</p>
+        <p>Materia: Conceptualización de servicios en la nube</p>
       </div>
     </footer>
   
